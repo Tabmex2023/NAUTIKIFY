@@ -1,225 +1,950 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nautikify – Yacht Charter & Deals</title>
 
-  <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0b1f3a;
-      color: white;
-    }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    header {
-      padding: 20px;
-      text-align: center;
-      background: rgba(0,0,0,0.3);
-    }
+    <meta name="description" content="Nautikify - Yacht Charter & exklusive Deals in Europa.">
 
-    header h1 {
-      margin: 0;
-      font-size: 32px;
-      letter-spacing: 2px;
-    }
+    <meta name="keywords" content="Yacht Charter, Mallorca, Ibiza, Griechenland, Bootscharter">
 
-    .hero {
-      height: 70vh;
-      background: url('assets/img/placeholder-hero.jpg') center/cover no-repeat;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 20px;
-    }
+    <meta name="author" content="Nautikify">
 
-    .hero h2 {
-      font-size: 42px;
-      max-width: 800px;
-    }
+    <title>Nautikify | Yacht Charter & Deals in Europa</title>
 
-    .section {
-      padding: 60px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
-    }
-
-    .card {
-      background: #122b4a;
-      border-radius: 12px;
-      overflow: hidden;
-      text-decoration: none;
-      color: white;
-      transition: 0.3s;
-    }
-
-    .card:hover {
-      transform: scale(1.03);
-    }
-
-    .card img {
-      width: 100%;
-      height: 140px;
-      object-fit: cover;
-    }
-
-    .card h3 {
-      padding: 10px;
-      margin: 0;
-    }
-
-    /* WhatsApp Button */
-    .whatsapp-btn {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: #25D366;
-      color: white;
-      padding: 14px 18px;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: bold;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-      z-index: 999;
-    }
-
-    .whatsapp-btn:hover {
-      background: #1ebe5d;
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px;
-      background: #081427;
-      font-size: 14px;
-    }
-  </style>
 </head>
 
 <body>
 
-  <!-- HEADER -->
-  <header>
-    <h1>NAUTIKIFY</h1>
-    <p>Yacht Charter & Premium Deals in Europe</p>
-  </header>
+<header>
 
-  <!-- HERO -->
-  <div class="hero">
-    <h2>Discover the best yacht charter destinations in Europe</h2>
-  </div>
+    <div class="header-container">
 
-  <!-- INTRO -->
-  <div class="section">
-    <h2>Unsere Ziele</h2>
-    <p>Wähle dein Reiseziel und entdecke exklusive Yachten & Charter Deals.</p>
-  </div>
+        <a href="index.html" class="logo">
+            NAUTIK<span>IFY</span>
+        </a>
 
-  <!-- DESTINATION GRID -->
-  <div class="section">
-    <div class="grid">
+        <nav id="navigation">
 
-      <a class="card" href="charter/mallorca.html">
-        <img src="assets/img/mallorca.jpg" alt="">
-        <h3>Mallorca</h3>
-      </a>
+            <ul>
 
-      <a class="card" href="charter/ibiza.html">
-        <img src="assets/img/ibiza.jpg" alt="">
-        <h3>Ibiza</h3>
-      </a>
+                <li>
+                    <a href="index.html">Startseite</a>
+                </li>
 
-      <a class="card" href="charter/barcelona.html">
-        <img src="assets/img/barcelona.jpg" alt="">
-        <h3>Barcelona</h3>
-      </a>
+                <li>
 
-      <a class="card" href="charter/cote-azur.html">
-        <img src="assets/img/cote-azur.jpg" alt="">
-        <h3>Côte d’Azur</h3>
-      </a>
+                    <a href="charter.html">Charter</a>
 
-      <a class="card" href="charter/sardinia.html">
-        <img src="assets/img/sardinia.jpg" alt="">
-        <h3>Sardinien</h3>
-      </a>
+                    <div class="dropdown">
 
-      <a class="card" href="charter/athens.html">
-        <img src="assets/img/athens.jpg" alt="">
-        <h3>Athen</h3>
-      </a>
+                        <a href="charter/mallorca.html">Mallorca</a>
 
-      <a class="card" href="charter/mykonos.html">
-        <img src="assets/img/mykonos.jpg" alt="">
-        <h3>Mykonos</h3>
-      </a>
+                        <a href="charter/ibiza.html">Ibiza</a>
 
-      <a class="card" href="charter/dubrovnik.html">
-        <img src="assets/img/dubrovnik.jpg" alt="">
-        <h3>Dubrovnik</h3>
-      </a>
+                        <a href="charter/barcelona.html">Barcelona</a>
 
-      <a class="card" href="charter/malta.html">
-        <img src="assets/img/malta.jpg" alt="">
-        <h3>Malta</h3>
-      </a>
+                        <a href="charter/cote-azur.html">Côte d'Azur</a>
 
-      <a class="card" href="charter/canary.html">
-        <img src="assets/img/canary.jpg" alt="">
-        <h3>Kanaren</h3>
-      </a>
+                        <a href="charter/sardinia.html">Sardinien</a>
+
+                        <a href="charter/athens.html">Athen</a>
+
+                        <a href="charter/mykonos.html">Mykonos</a>
+
+                        <a href="charter/dubrovnik.html">Dubrovnik</a>
+
+                        <a href="charter/malta.html">Malta</a>
+
+                        <a href="charter/canary.html">Kanaren</a>
+
+                    </div>
+
+                </li>
+
+                <li>
+                    <a href="deals.html">Deals</a>
+                </li>
+
+                <li>
+                    <a href="about.html">Über uns</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Kontakt</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <div class="mobile-toggle">
+
+            <span></span>
+
+        </div>
 
     </div>
-  </div>
 
-  <footer class="footer">
+</header>
 
-  <div class="footer-container">
 
-    <!-- BRAND -->
-    <div class="footer-brand">
-      <h3>Nautikify</h3>
-      <p>Yacht Charter & Premium Deals in Europe</p>
+<main>
+
+<section class="hero">
+
+    <img src="assets/img/hero.jpg" alt="Yacht Charter Europa" class="hero-image">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <span class="badge">
+            Premium Yacht Charter
+        </span>
+
+        <h1>
+
+            Exklusive Yachtcharter
+            in Europas schönsten Revieren
+
+        </h1>
+
+        <p>
+
+            Entdecke sorgfältig ausgewählte Motor- und Segelyachten,
+            attraktive Charterangebote und unvergessliche Erlebnisse
+            in den beliebtesten Destinationen Europas.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="charter.html" class="btn btn-primary">
+
+                Charter entdecken
+
+            </a>
+
+            <a href="deals.html" class="btn btn-outline">
+
+                Aktuelle Deals
+
+            </a>
+
+        </div>
+
     </div>
 
-    <!-- LINKS -->
-    <div class="footer-links">
-      <h4>Navigation</h4>
-      <a href="index.html">Startseite</a>
-      <a href="charter.html">Charter</a>
-      <a href="deals.html">Deals</a>
-      <a href="about.html">Über uns</a>
-      <a href="contact.html">Kontakt</a>
+</section>
+<!-- ==========================================================
+     WARUM NAUTIKIFY
+=========================================================== -->
+
+<section class="section">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Warum Nautikify?
+        </h2>
+
+        <p class="section-subtitle">
+            Wir helfen dir dabei, die passende Yacht für deinen Urlaub zu finden –
+            transparent, persönlich und mit attraktiven Angeboten in den beliebtesten
+            Charterrevieren Europas.
+        </p>
+
+        <div class="features">
+
+            <div class="feature">
+
+                <div class="feature-icon">⚓</div>
+
+                <h3>Ausgewählte Charter</h3>
+
+                <p>
+                    Hochwertige Motor- und Segelyachten
+                    in den beliebtesten Revieren Europas.
+                </p>
+
+            </div>
+
+            <div class="feature">
+
+                <div class="feature-icon">💬</div>
+
+                <h3>Persönliche Beratung</h3>
+
+                <p>
+                    Direkter Kontakt über WhatsApp –
+                    schnell, unkompliziert und persönlich.
+                </p>
+
+            </div>
+
+            <div class="feature">
+
+                <div class="feature-icon">💎</div>
+
+                <h3>Exklusive Deals</h3>
+
+                <p>
+                    Regelmäßig wechselnde Angebote,
+                    Last-Minute-Charter und saisonale Rabatte.
+                </p>
+
+            </div>
+
+            <div class="feature">
+
+                <div class="feature-icon">🌍</div>
+
+                <h3>Top Destinationen</h3>
+
+                <p>
+                    Mallorca, Ibiza, Griechenland,
+                    Kroatien, Malta und viele weitere Regionen.
+                </p>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <!-- LEGAL -->
-    <div class="footer-legal">
-      <h4>Rechtliches</h4>
-      <a href="impressum.html">Impressum</a>
-      <a href="datenschutz.html">Datenschutz</a>
+</section>
+
+
+
+<!-- ==========================================================
+     BELIEBTE DESTINATIONEN
+=========================================================== -->
+
+<section class="section bg-light">
+
+    <div class="container">
+
+        <h2 class="section-title">
+
+            Beliebte Charterdestinationen
+
+        </h2>
+
+        <p class="section-subtitle">
+
+            Entdecke die beliebtesten Regionen
+            für deinen nächsten Yachturlaub.
+
+        </p>
+
+        <div class="grid grid-3">
+
+            <a href="charter/mallorca.html" class="destination-card">
+
+                <div class="destination-image">
+
+                    <img src="assets/img/mallorca.jpg" alt="Mallorca">
+
+                </div>
+
+                <div class="destination-body">
+
+                    <h3>Mallorca</h3>
+
+                    <p>
+                        Die beliebteste Yachtdestination Europas
+                        mit traumhaften Buchten.
+                    </p>
+
+                    <span class="destination-link">
+
+                        Mehr entdecken →
+
+                    </span>
+
+                </div>
+
+            </a>
+
+
+            <a href="charter/ibiza.html" class="destination-card">
+
+                <div class="destination-image">
+
+                    <img src="assets/img/ibiza.jpg" alt="Ibiza">
+
+                </div>
+
+                <div class="destination-body">
+
+                    <h3>Ibiza</h3>
+
+                    <p>
+                        Luxus, Beach Clubs und
+                        kristallklares Wasser.
+                    </p>
+
+                    <span class="destination-link">
+
+                        Mehr entdecken →
+
+                    </span>
+
+                </div>
+
+            </a>
+
+
+            <a href="charter/mykonos.html" class="destination-card">
+
+                <div class="destination-image">
+
+                    <img src="assets/img/mykonos.jpg" alt="Mykonos">
+
+                </div>
+
+                <div class="destination-body">
+
+                    <h3>Mykonos</h3>
+
+                    <p>
+                        Griechenlands Hotspot
+                        für exklusive Yachtcharter.
+                    </p>
+
+                    <span class="destination-link">
+
+                        Mehr entdecken →
+
+                    </span>
+
+                </div>
+
+            </a>
+
+        </div>
+
+        <div class="text-center mt-5">
+
+            <a href="charter.html" class="btn btn-secondary">
+
+                Alle Destinationen ansehen
+
+            </a>
+
+        </div>
+
     </div>
 
-    <!-- CONTACT SHORT -->
-    <div class="footer-contact">
-      <h4>Kontakt</h4>
-      <p>WhatsApp: +49 XXXXXXXX</p>
-      <p>Email: info@nautikify.com</p>
+</section>
+<!-- ==========================================================
+     CHARTER HIGHLIGHTS
+=========================================================== -->
+
+<section class="section">
+
+    <div class="container">
+
+        <h2 class="section-title">
+
+            Ausgewählte Charter-Highlights
+
+        </h2>
+
+        <p class="section-subtitle">
+
+            Eine kleine Auswahl beliebter Yachten. Auf den
+            jeweiligen Destinationsseiten findest du weitere Angebote.
+
+        </p>
+
+        <div class="grid grid-3">
+
+            <article class="yacht-card">
+
+                <img src="assets/img/yacht-01.jpg" alt="Motoryacht Mallorca">
+
+                <div class="yacht-content">
+
+                    <span class="badge">Mallorca</span>
+
+                    <h3 class="yacht-title">
+                        Premium Motoryacht
+                    </h3>
+
+                    <p>
+                        Modern, komfortabel und ideal für Tages-
+                        und Wochencharter.
+                    </p>
+
+                    <div class="yacht-details">
+
+                        <span>👥 10 Personen</span>
+
+                        <span>🛏️ 2 Kabinen</span>
+
+                    </div>
+
+                    <div class="yacht-price">
+                        ab 990 € / Tag
+                    </div>
+
+                    <a href="charter/mallorca.html" class="btn btn-primary">
+
+                        Details ansehen
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="yacht-card">
+
+                <img src="assets/img/yacht-02.jpg" alt="Motoryacht Ibiza">
+
+                <div class="yacht-content">
+
+                    <span class="badge">Ibiza</span>
+
+                    <h3 class="yacht-title">
+                        Sport Yacht
+                    </h3>
+
+                    <p>
+                        Perfekt für Tagesausflüge entlang
+                        der Küste Ibizas.
+                    </p>
+
+                    <div class="yacht-details">
+
+                        <span>👥 8 Personen</span>
+
+                        <span>🛏️ 1 Kabine</span>
+
+                    </div>
+
+                    <div class="yacht-price">
+                        ab 790 € / Tag
+                    </div>
+
+                    <a href="charter/ibiza.html" class="btn btn-primary">
+
+                        Details ansehen
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="yacht-card">
+
+                <img src="assets/img/yacht-03.jpg" alt="Motoryacht Griechenland">
+
+                <div class="yacht-content">
+
+                    <span class="badge">Griechenland</span>
+
+                    <h3 class="yacht-title">
+                        Luxury Cruiser
+                    </h3>
+
+                    <p>
+                        Entdecke traumhafte Inseln
+                        und türkisfarbenes Wasser.
+                    </p>
+
+                    <div class="yacht-details">
+
+                        <span>👥 12 Personen</span>
+
+                        <span>🛏️ 3 Kabinen</span>
+
+                    </div>
+
+                    <div class="yacht-price">
+                        ab 1.290 € / Tag
+                    </div>
+
+                    <a href="charter/athens.html" class="btn btn-primary">
+
+                        Details ansehen
+
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
     </div>
 
-  </div>
+</section>
 
-  <div class="footer-bottom">
-    © 2026 Nautikify. All rights reserved.
-  </div>
+
+
+<!-- ==========================================================
+     AKTUELLE DEALS
+=========================================================== -->
+
+<section class="section bg-light">
+
+    <div class="container">
+
+        <h2 class="section-title">
+
+            Aktuelle Deals
+
+        </h2>
+
+        <p class="section-subtitle">
+
+            Exklusive Sonderangebote und Last-Minute-Charter.
+
+        </p>
+
+        <div class="grid grid-3">
+
+            <article class="deal-card">
+
+                <span class="deal-badge">
+                    -20 %
+                </span>
+
+                <img src="assets/img/deal-01.jpg" alt="Deal Mallorca">
+
+                <div class="deal-content">
+
+                    <h3>
+                        Mallorca Weekend Deal
+                    </h3>
+
+                    <p>
+
+                        Kurzfristiges Angebot für ausgewählte Termine.
+
+                    </p>
+
+                    <p class="old-price">
+
+                        1.250 € / Tag
+
+                    </p>
+
+                    <p class="new-price">
+
+                        999 € / Tag
+
+                    </p>
+
+                    <a href="deals.html" class="btn btn-secondary">
+
+                        Zum Deal
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="deal-card">
+
+                <span class="deal-badge">
+                    Last Minute
+                </span>
+
+                <img src="assets/img/deal-02.jpg" alt="Deal Ibiza">
+
+                <div class="deal-content">
+
+                    <h3>
+
+                        Ibiza Special
+
+                    </h3>
+
+                    <p>
+
+                        Attraktiver Preis für spontane Charter.
+
+                    </p>
+
+                    <p class="old-price">
+
+                        1.090 € / Tag
+
+                    </p>
+
+                    <p class="new-price">
+
+                        849 € / Tag
+
+                    </p>
+
+                    <a href="deals.html" class="btn btn-secondary">
+
+                        Zum Deal
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="deal-card">
+
+                <span class="deal-badge">
+
+                    Top Angebot
+
+                </span>
+
+                <img src="assets/img/deal-03.jpg" alt="Deal Griechenland">
+
+                <div class="deal-content">
+
+                    <h3>
+
+                        Griechenland Cruiser
+
+                    </h3>
+
+                    <p>
+
+                        Beliebte Yacht zum Sonderpreis.
+
+                    </p>
+
+                    <p class="old-price">
+
+                        1.450 € / Tag
+
+                    </p>
+
+                    <p class="new-price">
+
+                        1.150 € / Tag
+
+                    </p>
+
+                    <a href="deals.html" class="btn btn-secondary">
+
+                        Zum Deal
+
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==========================================================
+     KUNDENBEWERTUNGEN
+=========================================================== -->
+
+<section class="section">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Das sagen unsere Kunden
+        </h2>
+
+        <p class="section-subtitle">
+            Zufriedene Kunden stehen für uns an erster Stelle.
+        </p>
+
+        <div class="grid grid-3">
+
+            <article class="testimonial">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "Von der ersten Anfrage bis zum Charter verlief alles
+                    reibungslos. Die Beratung war schnell und persönlich."
+                </p>
+
+                <div class="testimonial-author">
+
+                    <div class="author-image">
+                        <img src="assets/img/customer-01.jpg" alt="Kunde">
+                    </div>
+
+                    <div>
+                        <strong>Max M.</strong><br>
+                        Mallorca
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="testimonial">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "Super unkompliziert über WhatsApp organisiert.
+                    Genau die Yacht bekommen, die wir gesucht haben."
+                </p>
+
+                <div class="testimonial-author">
+
+                    <div class="author-image">
+                        <img src="assets/img/customer-02.jpg" alt="Kundin">
+                    </div>
+
+                    <div>
+                        <strong>Julia K.</strong><br>
+                        Ibiza
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="testimonial">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "Professionelle Betreuung und ein hervorragendes Preis-
+                    Leistungsverhältnis. Gerne wieder."
+                </p>
+
+                <div class="testimonial-author">
+
+                    <div class="author-image">
+                        <img src="assets/img/customer-03.jpg" alt="Kunde">
+                    </div>
+
+                    <div>
+                        <strong>Thomas S.</strong><br>
+                        Griechenland
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================================
+     CALL TO ACTION
+=========================================================== -->
+
+<section class="section bg-primary text-center">
+
+    <div class="container">
+
+        <span class="badge">
+
+            Persönliche Beratung
+
+        </span>
+
+        <h2 class="text-white mt-3">
+
+            Bereit für deinen nächsten Yachturlaub?
+
+        </h2>
+
+        <p class="text-white mt-3" style="max-width:700px;margin:30px auto;opacity:.9;">
+
+            Kontaktiere uns direkt über WhatsApp und erhalte
+            ein individuelles Angebot für deine Wunschdestination.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="https://wa.me/49123456789"
+               target="_blank"
+               class="btn btn-primary">
+
+                Jetzt per WhatsApp anfragen
+
+            </a>
+
+            <a href="contact.html"
+               class="btn btn-outline">
+
+                Kontaktseite
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================================
+     FOOTER
+=========================================================== -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div>
+
+                <h3>Nautikify</h3>
+
+                <p>
+
+                    Exklusive Yachtcharter und attraktive Deals
+                    in den schönsten Revieren Europas.
+
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h4>Navigation</h4>
+
+                <ul>
+
+                    <li><a href="index.html">Startseite</a></li>
+
+                    <li><a href="charter.html">Charter</a></li>
+
+                    <li><a href="deals.html">Deals</a></li>
+
+                    <li><a href="about.html">Über uns</a></li>
+
+                    <li><a href="contact.html">Kontakt</a></li>
+
+                </ul>
+
+            </div>
+
+
+            <div>
+
+                <h4>Destinationen</h4>
+
+                <ul>
+
+                    <li><a href="charter/mallorca.html">Mallorca</a></li>
+
+                    <li><a href="charter/ibiza.html">Ibiza</a></li>
+
+                    <li><a href="charter/barcelona.html">Barcelona</a></li>
+
+                    <li><a href="charter/athens.html">Griechenland</a></li>
+
+                    <li><a href="charter/dubrovnik.html">Kroatien</a></li>
+
+                </ul>
+
+            </div>
+
+
+            <div>
+
+                <h4>Rechtliches</h4>
+
+                <ul>
+
+                    <li><a href="impressum.html">Impressum</a></li>
+
+                    <li><a href="datenschutz.html">Datenschutz</a></li>
+
+                    <li><a href="contact.html">Kontakt</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+
+                © 2026 Nautikify. Alle Rechte vorbehalten.
+
+            </p>
+
+        </div>
+
+    </div>
 
 </footer>
+
+
+
+<!-- ==========================================================
+     FIXER WHATSAPP BUTTON
+=========================================================== -->
+
+<a href="https://wa.me/49123456789"
+   target="_blank"
+   class="whatsapp"
+   aria-label="WhatsApp">
+
+    💬
+
+</a>
+
+
+
+<!-- ==========================================================
+     BACK TO TOP
+=========================================================== -->
+
+<a href="#" class="back-to-top">
+
+    ↑
+
+</a>
+
+
+
+<script src="assets/js/main.js"></script>
+
+</main>
+
+</body>
+
+</html>

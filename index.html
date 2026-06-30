@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nautikify – Yacht Charter & Deals</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1f3a;
+      color: white;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      background: rgba(0,0,0,0.3);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+      letter-spacing: 2px;
+    }
+
+    .hero {
+      height: 70vh;
+      background: url('assets/img/placeholder-hero.jpg') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      max-width: 800px;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #122b4a;
+      border-radius: 12px;
+      overflow: hidden;
+      text-decoration: none;
+      color: white;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      padding: 10px;
+      margin: 0;
+    }
+
+    /* WhatsApp Button */
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 14px 18px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      z-index: 999;
+    }
+
+    .whatsapp-btn:hover {
+      background: #1ebe5d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #081427;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>NAUTIKIFY</h1>
+    <p>Yacht Charter & Premium Deals in Europe</p>
+  </header>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h2>Discover the best yacht charter destinations in Europe</h2>
+  </div>
+
+  <!-- INTRO -->
+  <div class="section">
+    <h2>Unsere Ziele</h2>
+    <p>Wähle dein Reiseziel und entdecke exklusive Yachten & Charter Deals.</p>
+  </div>
+
+  <!-- DESTINATION GRID -->
+  <div class="section">
+    <div class="grid">
+
+      <a class="card" href="charter/mallorca.html">
+        <img src="assets/img/mallorca.jpg" alt="">
+        <h3>Mallorca</h3>
+      </a>
+
+      <a class="card" href="charter/ibiza.html">
+        <img src="assets/img/ibiza.jpg" alt="">
+        <h3>Ibiza</h3>
+      </a>
+
+      <a class="card" href="charter/barcelona.html">
+        <img src="assets/img/barcelona.jpg" alt="">
+        <h3>Barcelona</h3>
+      </a>
+
+      <a class="card" href="charter/cote-azur.html">
+        <img src="assets/img/cote-azur.jpg" alt="">
+        <h3>Côte d’Azur</h3>
+      </a>
+
+      <a class="card" href="charter/sardinia.html">
+        <img src="assets/img/sardinia.jpg" alt="">
+        <h3>Sardinien</h3>
+      </a>
+
+      <a class="card" href="charter/athens.html">
+        <img src="assets/img/athens.jpg" alt="">
+        <h3>Athen</h3>
+      </a>
+
+      <a class="card" href="charter/mykonos.html">
+        <img src="assets/img/mykonos.jpg" alt="">
+        <h3>Mykonos</h3>
+      </a>
+
+      <a class="card" href="charter/dubrovnik.html">
+        <img src="assets/img/dubrovnik.jpg" alt="">
+        <h3>Dubrovnik</h3>
+      </a>
+
+      <a class="card" href="charter/malta.html">
+        <img src="assets/img/malta.jpg" alt="">
+        <h3>Malta</h3>
+      </a>
+
+      <a class="card" href="charter/canary.html">
+        <img src="assets/img/canary.jpg" alt="">
+        <h3>Kanaren</h3>
+      </a>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- BRAND -->
+    <div class="footer-brand">
+      <h3>Nautikify</h3>
+      <p>Yacht Charter & Premium Deals in Europe</p>
+    </div>
+
+    <!-- LINKS -->
+    <div class="footer-links">
+      <h4>Navigation</h4>
+      <a href="index.html">Startseite</a>
+      <a href="charter.html">Charter</a>
+      <a href="deals.html">Deals</a>
+      <a href="about.html">Über uns</a>
+      <a href="contact.html">Kontakt</a>
+    </div>
+
+    <!-- LEGAL -->
+    <div class="footer-legal">
+      <h4>Rechtliches</h4>
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
+    </div>
+
+    <!-- CONTACT SHORT -->
+    <div class="footer-contact">
+      <h4>Kontakt</h4>
+      <p>WhatsApp: +49 XXXXXXXX</p>
+      <p>Email: info@nautikify.com</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Nautikify. All rights reserved.
+  </div>
+
+</footer>

@@ -1,5 +1,5 @@
 document.getElementById("whatsapp").innerHTML = `
-<a href="https://wa.me/49123456789"
+<a href="https://wa.me/526731340913"
    target="_blank"
    class="whatsapp"
    aria-label="WhatsApp">

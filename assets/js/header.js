@@ -44,7 +44,7 @@ document.getElementById("header").innerHTML = `
 
                         <a href="malta.html">Malta</a>
 
-                        <a href="kanaren.html">Kanaren</a>
+                        <a href="kanaren.html">Kanarische Inseln</a>
 
                     </div>
 

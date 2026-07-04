@@ -1,6 +1,6 @@
 // NAVIGATION laden
 
-fetch("/assets/components/nav.html")
+fetch("assets/components/nav.html")
 
   .then(res => res.text())
 
@@ -12,7 +12,7 @@ fetch("/assets/components/nav.html")
 
 // WHATSAPP laden
 
-fetch("/assets/components/whatsapp.html")
+fetch("assets/components/whatsapp.html")
 
   .then(res => res.text())
 

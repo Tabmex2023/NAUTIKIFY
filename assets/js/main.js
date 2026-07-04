@@ -177,3 +177,14 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+    /* ==========================================
+       Whatsapp 
+    ========================================== */
+
+document.querySelectorAll(".whatsapp-link").forEach(button => {
+
+    button.href = whatsapp;
+
+    button.target = "_blank";
+
+});

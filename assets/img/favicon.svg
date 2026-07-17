@@ -1,0 +1,33 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Kompass Kreis -->
+
+<circle cx="60" cy="60" r="52" stroke="#0B7A8F" stroke-width="3"/>
+
+<!-- Kompass Spitzen -->
+
+<path d="M60 10 L66 50 L110 60 L66 70 L60 110 L54 70 L10 60 L54 50 Z"
+
+fill="none"
+
+stroke="#0B7A8F"
+
+stroke-width="2"/>
+
+<!-- Nautikify N -->
+
+<path d="M38 85 V35 L82 85 V35"
+
+stroke="#0B7A8F"
+
+stroke-width="10"
+
+stroke-linecap="round"
+
+stroke-linejoin="round"/>
+
+<!-- Mittelpunkt -->
+
+<circle cx="60" cy="60" r="5" fill="#0B7A8F"/>
+
+</svg>

@@ -2175,3 +2175,53 @@ header.scrolled{
     font-weight:700;
 
 }
+
+.features {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+
+    margin-top: 40px;
+
+}
+
+.feature {
+
+    text-align: center;
+
+}
+
+.feature-icon {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-bottom: 20px;
+
+}
+
+.feature-icon img {
+
+    width: 55px;
+
+    height: 55px;
+
+    object-fit: contain;
+
+}
+
+@media (max-width: 768px) {
+
+    .features {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}

@@ -1,0 +1,41 @@
+{
+
+  "name": "Nautikify",
+
+  "short_name": "Nautikify",
+
+  "description": "Premium Yacht Charter und exklusive Deals in Europas schönsten Revieren.",
+
+  "start_url": "../index.html",
+
+  "display": "standalone",
+
+  "background_color": "#ffffff",
+
+  "theme_color": "#0b3d5c",
+
+  "icons": [
+
+    {
+
+      "src": "img/favicon-192.png",
+
+      "sizes": "192x192",
+
+      "type": "image/png"
+
+    },
+
+    {
+
+      "src": "img/apple-touch-icon.png",
+
+      "sizes": "180x180",
+
+      "type": "image/png"
+
+    }
+
+  ]
+
+}

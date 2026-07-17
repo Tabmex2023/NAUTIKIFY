@@ -6,7 +6,9 @@ document.getElementById("header").innerHTML = `
 
         <a href="index.html" class="logo">
 
-    <span class="logo-n">N</span>AUTIK<span>IFY</span>
+    <img src="assets/img/logo.svg" alt="Nautikify Logo">
+
+    <span>NAUTIK<span>IFY</span></span>
 
 </a>
 

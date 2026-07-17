@@ -2150,28 +2150,28 @@ header.scrolled{
     display:block;
 
 }
-.logo-n {
+.logo {
 
-    display:inline-flex;
+    display:flex;
 
     align-items:center;
 
-    justify-content:center;
+    gap:12px;
 
-    width:38px;
+}
 
-    height:38px;
+.logo img {
 
-    border-radius:50%;
+    width:45px;
 
-    background:#18c7c9;
+    height:45px;
 
-    color:white;
+}
 
-    font-size:26px;
+.logo span {
+
+    font-size:28px;
 
     font-weight:700;
-
-    margin-right:5px;
 
 }

@@ -2150,3 +2150,28 @@ header.scrolled{
     display:block;
 
 }
+.logo-n {
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    width:38px;
+
+    height:38px;
+
+    border-radius:50%;
+
+    background:#18c7c9;
+
+    color:white;
+
+    font-size:26px;
+
+    font-weight:700;
+
+    margin-right:5px;
+
+}

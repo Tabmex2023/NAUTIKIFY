@@ -6,9 +6,9 @@ document.getElementById("header").innerHTML = `
 
         <a href="index.html" class="logo">
 
-            NAUTIK<span>IFY</span>
+    <span class="logo-n">N</span>AUTIK<span>IFY</span>
 
-        </a>
+</a>
 
         <nav id="navigation">
 
